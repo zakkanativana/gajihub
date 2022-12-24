@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+/* Navbar */
+.navbar-klendo {
+    padding-top: 15px;
+    background-color: #E53E6A;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+    margin-right: 10px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link.scrolled {
+    color: #fff !important;
+    margin-right: 10px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-fixed-top.scrolled{
+    color: #fff;
+    box-shadow: 2px 3px 8px -1px rgba(0, 0, 0, 0.59);
+    transition: background-color  200ms linear;
+}
+
+.btn-masuk {
+    padding: 12px 50px;
+    background-color: #FFE420;
+    color: #fff !important;
+}
+
+/* End Navbar */
+
+/* Hero */
+.hero-gajihub {
+    padding: 200px 0 180px ;
+    background-color: #E53E6A;
+    color: #fff;
+}
+
+header h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+header p{
+    font-family: 'Lora', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn-header {
+    padding: 12px 50px;
+    background-color: #FFE420;
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+/* End Hero */
+
+/* Fitur */
+.fitur-desc h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: #2b2a35;
+}
+
+.fitur-desc p{
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2b2a35;
+}
+
+
+.card-title {
+    font-size: 20px !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #2b2a35;
+}
+
+.card-text{
+    font-size: 14px !important;
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    color: #646464;
+}
+
+
+
+.card-fitur{
+    border: 0px;
+    transition: 0.6s ease;
+    box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06); 
+}
+
+.card-fitur:hover{
+    transform: scale(1.15);
+    z-index: 999;
+    box-shadow: 0px 6px 20px rgba(17, 26, 104, 0.1);
+}
+
+
+
+
+/* End Fitur */
+
+/* Liputan */
+.swiper-button-next {
+    background-color: #fff;
+    border-radius: 50%;
+    color: black !important;
+    padding: 25px;
+    box-shadow: 0px 1px 2px 0px #1018280F;
+    box-shadow: 0px 1px 3px 0px #1018281A;
+    right: -25px !important;
+    top: 40px !important;
+  }
+  
+  .swiper-button-next:after {
+  font-size: 20px !important;
+  }
+  
+  .swiper-button-prev {
+    background-color: #fff;
+    border-radius: 50%;
+    color: black !important;
+    padding: 25px;
+    box-shadow: 0px 1px 2px 0px #1018280F;
+    box-shadow: 0px 1px 3px 0px #1018281A;
+    left: -25px !important;
+    top: 40px !important;   
+  }
+  
+  .swiper-button-prev:after {
+  font-size: 20px !important;
+  }
+
+  .swiper-pagination{
+    display: none;
+  }
+
+.liputan-desc h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+/* End Liputan */
+
+/* Footer */
+/* Interest */
+.interest {
+    color: #fff;
+    border-radius: 20px;
+    padding: 50px;
+    background-color: #E53E6A;
+}
+/* End Interest */
+
+#footer .footer-top {
+    padding: 60px 0 30px 0;
+    background: #C12850;
+    color: #fff;
+  }
+  
+  #footer .footer-top .footer-contact {
+    margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-contact p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+  }
+  
+  #footer .footer-top h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 12px;
+  }
+  
+  #footer .footer-top .footer-links {
+    margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-links ul {
+    list-style: none;
+  }
+  
+  #footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+  }
+  
+  #footer .footer-top .footer-links ul a {
+    color: #fff;
+    opacity: 0.8;
+  }
+  
+  #footer .footer-top .footer-links ul a:hover {
+    text-decoration: none;
+    opacity: 1;
+  }
+  
+  #footer .footer-top .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #E53E6A;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  #footer .footer-top .social-links a:hover {
+    background: #E53E6A;
+    color: #000;
+    text-decoration: none;
+  }
+  /* End Footer */
+
+
+/* Blog */
+.hero-blog {
+    padding: 180px 0 120px ;
+    color: #fff;
+}
+
+
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 768px){
+    /* Header */
+    .header-img img{
+        display:none;
+    }
+
+    .tengah {
+        margin: auto;
+        display: block !important;
+        text-align: center;
+    }
+
+    .card-fitur{
+      width: 100% !important;
+    }
+    /* End Header */
+
+    /* Liputan */
+    .swiper-button-next {
+        left: 675px !important;
+    }
+  
+    .swiper-button-prev {
+      left: -32px !important;
+    }
+    /* Liputan */
+}
+
+@media screen and (max-width: 513px){
+    /* Header */
+    .header-img img{
+        display:none;
+    }
+
+    .tengah {
+        margin: auto;
+        display: block !important;
+        text-align: center;
+    }
+
+    header h1{
+        font-size: 24px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    header p{
+        font-family: 'Lora', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .btn-header {
+        padding: 12px 50px;
+        background-color: #FFE420;
+        color: #fff !important;
+        font-weight: bold;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+    }
+    /* End Header */
+
+    /* Fitur */
+    .fitur-desc h1{
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 28px;
+        color: #2b2a35;
+    }
+
+    .fitur-desc p{
+        font-family: 'lora', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #2b2a35;
+    }
+
+    /* Card */
+    .card-body h5 {
+        font-size: 20px !important;
+    }
+
+    .card-fitur{
+      width: 100% !important;
+    }
+    /* End Card */
+
+    /* End Fitur */
+
+    /* Liputan */
+    .swiper-button-next {
+        display: none !important;
+      }
+
+      .swiper-button-prev {
+        display: none !important;
+      }
+
+      .swiper-pagination{
+        bottom: -15px !important;
+        display:block;
+      }
+
+
+    /* Liputan */
+}

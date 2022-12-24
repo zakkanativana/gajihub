@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- Icons -->
+    <link href="libraries/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-klendo fixed-top navbar-fixed-top navbar-light" data-aos="fade-down">
+        <div class="container">
+
+            <!-- Logo -->
+            <a href="index.html" class="navbar-brand">
+                <img src="img/logo/logo-gajihub.png" alt="logo" width="180">
+            </a>
+            <!-- End Logo -->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mx-auto mt-2">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Layanan
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href=""> Payroll </a>
+                            <a class="dropdown-item" href="#"> Absensi </a>
+                            <a class="dropdown-item" href="#"> Kelola PPH 21 </a>
+                            <a class="dropdown-item" href="#"> BPJS </a>
+                            <a class="dropdown-item" href="#"> Akuntansi </a>
+                            <a class="dropdown-item" href="#"> ESS Employee Full Service </a>
+                            <a class="dropdown-item" href="#"> Kelola Cuti & Izin </a>
+                            <a class="dropdown-item" href="#"> Analisa Data </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"> Harga </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="blog.html" class="nav-link"> Blog </a>
+                    </li>
+                </ul>
+
+                <!-- Profile -->
+                <a href="login.html" class="btn btn-masuk nav-link">
+                    Masuk
+                </a>
+            </div>
+
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Jumbotron -->
+    <header class="hero-gajihub mb-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <div class="header-desc ">
+                        <h1 class="mb-3"> Solusi Pengelolaan Payroll dan <br> HR untuk bisnis kamu </h1>
+                        <p> Dengan Software payroll GajiHub, Kamu bisa mengelola proses penggajian, HR, dan absensi
+                            dalam satu software yang terintegrasi. Hitung gaji, pajak, pengajuan cuti, absensi dan
+                            pengelolaan data karyawan jadi lebih praktis. </p>
+                        <a href="#login" class="btn btn-header mt-3"> Daftar Gratis </a>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="header-img">
+                        <img src="img/product/dashboard-1.PNG" alt="" width="600px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Jumbotron -->
+
+    <!-- fitur -->
+    <section class="fitur mb-5">
+        <div class="container">
+            <!-- fitur Desc -->
+            <div class="row mb-5">
+                <div class="col text-center">
+                    <div class="fitur-desc">
+                        <h1> Beragam Fitur Untuk Berkembang Bersama </h1>
+                        <p> Kamu bisa merasakan manfaat dari Pengelolaan Payroll dan HR dengan dukungan fitur terlengkap
+                            dari Gajihub </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End fitur Desc -->
+
+            <!-- Card -->
+            <div class="row">
+                <div class="col-lg mb-3">
+                    <div class="card card-fitur align-items-center py-4 mx-auto" style="width: 17rem;">
+                        <img src="img/fitur/pajak.svg" alt="Card image cap" style="width: 80px;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center"> Pengelolaan THR dan Benefit Karyawan </h5>
+                            <p class="card-text">Sistem penggajian karyawan di GajiHub fleksibel dan dapat diakses
+                                online memudahkan perhitungan gaji karyawan dengan beragam komponen tunjangan, termasuk
+                                mengkalkulasi lembur, THR, bonus dan benefit lainnya. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg mb-3">
+                    <div class="card card-fitur align-items-center py-4 mx-auto"  style="width: 17rem;">
+                        <img src="img/fitur/bpjs.svg" alt="Card image cap" style="width: 80px;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"> Perhitungan Pajak Karyawan dan BPJS </h5>
+                            <p class="card-text text-center">Mulai dari penghitungan PPh 21 dan PPh 26, kini Anda bisa
+                                melakukan itu semua dengan praktis di GajiHub. Anda juga dapat menghitung premi BPJS,
+                                baik BPJS Ketenagakerjaan maupun BPJS langsung dari sistem GajiHub. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg mb-3">
+                    <div class="card card-fitur align-items-center py-4 mx-auto"  style="width: 17rem;">
+                        <img src="img/fitur/analisis.svg" alt="Card image cap" style="width: 80px;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"> Analisa Kinerja Karyawan </h5>
+                            <p class="card-text text-center">GajiHub menyediakan fitur yang Anda butuhkan untuk Analisis
+                                Kinerja Karyawan secara real-time di satu tempat. Mulai dari Data Kompensasi, Demografi
+                                Karyawan, sampai Data Produktivitas bisa Anda peroleh di GajiHub. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg mb-3">
+                    <div class="card card-fitur align-items-center py-4 mx-auto"  style="width: 17rem;">
+                        <img src="img/fitur/cuti.svg" alt="Card image cap" style="width: 80px;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"> Kelola Cuti dan Izin Karyawan </h5>
+                            <p class="card-text text-center" style="margin-bottom: 40px;">Anda mengelola izin karyawan yang berlaku di
+                                perusahaan Anda dengan mudah. Di GajiHub Anda juga fleksibel mengakomodasi periode cuti
+                                individu dan periode bersama. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg mb-3">
+                    <div class="card card-fitur align-items-center py-4">
+                        <img src="img/fitur/pola.png" alt="Card image cap" style="width: 80px;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center"> Membantu menata pola kerja </h5>
+                            <p class="card-text">Perusahaan Anda menerapkan peraturan jam kerja yang beragam atau
+                                memiliki pembagian pola kerja? Dengan GajiHub membuat pengelolaan jam kerja menjadi
+                                lebih mudah!. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg mb-3">
+                    <div class="card card-fitur align-items-center py-4">
+                        <img src="img/fitur/absensi.png" alt="Card image cap" style="width: 80px;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"> Mencatat Absensi Karyawan </h5>
+                            <p class="card-text text-center mb-4">Informasi dan pencatatan absensi berjalan lebih
+                                optimal dengan dengan integrasi langsung ke sistem penggajian perusahan. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg mb-3">
+                    <div class="card card-fitur align-items-center py-4">
+                        <img src="img/fitur/karyawan.png" alt="Card image cap" style="width: 80px;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"> Mudah kelola data karyawan </h5>
+                            <p class="card-text text-center">Seluruh data karyawan bisa Anda akses dan kelola dalam satu
+                                sistem sehingga memudahkan Anda dalam melakukan manajemen SDM lebih efisien. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End Card -->
+        </div>
+    </section>
+    <!-- End fitur -->
+
+    <!-- Liputan -->
+    <section class="liputan mb-5">
+        <div class="container">
+            <!-- Liputan Desc -->
+            <div class="row mb-5">
+                <div class="col text-center">
+                    <div class="liputan-desc">
+                        <h1> Telah Diliput Oleh : </h1>
+                    </div>
+                </div>
+            </div>
+            <!-- End Liputan Desc -->
+            <!-- Logo Partner -->
+            <div class="container position-relative align-items-center">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="col-lg mb-3">
+                                <div class="card">
+                                    <img src="img/partner/infokomputer.png" alt="" class="px-4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-lg mb-3 ">
+                                <div class="card">
+                                    <img src="img/partner/kedaulatan-rakyat.png" alt="" class="px-4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-lg mb-3 ">
+                                <div class="card">
+                                    <img src="img/partner/investing.png" alt="" class="px-4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-lg mb-3 ">
+                                <div class="card">
+                                    <img src="img/partner/kabarbisnis.png" alt="" class="px-4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-lg mb-3 ">
+                                <div class="card">
+                                    <img src="img/partner/itech 1.png" alt="" class="px-4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-lg mb-3 ">
+                                <div class="card">
+                                    <img src="img/partner/kontan.png" alt="" class="px-4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-lg mb-3 ">
+                                <div class="card">
+                                    <img src="img/partner/linenews.png" alt="" class="px-4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-lg mb-3 ">
+                                <div class="card">
+                                    <img src="img/partner/siar.png" alt="" class="px-4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-lg mb-3 ">
+                                <div class="card">
+                                    <img src="img/partner/linenews.png" alt="" class="px-4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-lg mb-3 ">
+                                <div class="card">
+                                    <img src="img/partner/tagar.png" alt="" class="px-4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-lg mb-3 ">
+                                <div class="card">
+                                    <img src="img/partner/tempoco.png" alt="" class="px-4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-lg mb-3 ">
+                                <div class="card">
+                                    <img src="img/partner/tribun.png" alt="" class="px-4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <!-- End Logo Partner -->
+        </div>
+    </section>
+    <!-- End Liputan -->
+
+    <!-- Footer -->
+    <section class="interested mb-5">
+        <div class="container">
+            <div class="interest text-center">
+                <div class="liputan-desc">
+                    <h1> Solusi terbaik untuk semua kebutuhan bisnis kamu </h1>
+                    <a href="#login" class="btn btn-header mt-3"> Daftar Gratis </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3> <img src="img/logo/logo-gajihub.png" alt="logo" width="180"> </h3>
+                        <p> +62 81 222 8000 70 <br>
+                            hello@gajihub.com <br>
+                            PT Kledo Berhati Nyaman <br>
+                            Jl. Kledokan No B10, Catur Tunggal, Depok, DIY, 55281
+                            <br><br>
+                        </p>
+                        <div class="social-links mt-1">
+                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                            <a href="#" class="google-plus"><i class="bx bxl-tiktok"></i></a>
+                            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                        </div>
+                        <div class="d-flex justify-content-start">            
+                                <img src="img/partner/kominfo.png" alt="" class="mt-4 mr-3" width="80">                                           
+                                <img src="img/partner/keamanan.png" alt="" class="mt-4" width="80">                
+                        </div>
+                       
+                       
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4> TENTANG KAMI </h4>
+                        <ul>
+                            <li> <a href="#"> Tentang </a></li>
+                            <li> <a href="#"> Tutorial </a></li>
+                            <li> <a href="#"> Blog </a></li>
+                            <li> <a href="#"> Karir </a></li>
+                            <li> <a href="#"> Keamanan </a></li>
+                            <li> <a href="#"> Jadwalkan Demo </a></li>
+                            <li> <a href="#"> Download Proposal </a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4> LAYANAN </h4>
+                        <ul>
+                            <li> <a href="#"> Penggajian dan THR </a></li>
+                            <li> <a href="#"> Kelola PPh 21 </a></li>
+                            <li> <a href="#"> Kelola BPJS </a></li>
+                            <li> <a href="#"> Akuntansi </a></li>
+                            <li> <a href="#"> Analisa Data </a></li>
+                            <li> <a href="#"> Kelola Cuti dan Izin </a></li>
+                        </ul>
+                    </div>
+
+                  
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4> TOOLS BISNIS </h4>
+                        <ul>
+                            <li> <a href="#"> Kalkulator PPh 21 </a></li>
+                            <li> <a href="#"> Template Slip Gaji </a></li>
+                        </ul>
+
+                        <h4 class="mt-5"> TERSEDIA DI  </h4>
+                        <ul>
+                            <img src="img/partner/google-play.png" alt="" width="200" >
+                            <img src="img/partner/apple-store.png" alt="" width="200" class="mt-2">
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+
+
+
+    <script src="libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
